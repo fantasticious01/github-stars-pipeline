@@ -6,8 +6,6 @@ Welcome to the GitHub Gems project! This project hosts a data analytics pipeline
 
 The goal of this project is to develop an efficient data pipeline that streamlines analytics, reduces manual effort, and enables deeper insights into the open-source ecosystem on GitHub. By leveraging modern data tools and best practices, such as dbt (data build tool) and Airflow, we aim to create a scalable and reliable solution for data-driven decision-making.
 
----
-
 ## High-Level Features
 
 ### Most Important Metrics and Data Points
@@ -28,5 +26,3 @@ The data is delivered in the form of SQL databases.
 ### Update Frequency
 
 The data is updated daily to maintain up-to-date information for analysis.
-
----
