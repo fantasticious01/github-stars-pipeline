@@ -28,7 +28,7 @@ The data is updated daily to maintain up-to-date information for analysis.
 
 ## Model
 
-In this project, we will be utilizing the Kimball Model, aka "Star Schema."
+In this project, we will be utilizing the **Kimball Model**, aka "Star Schema."
 
 ### Kimball Model Components
 
