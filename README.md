@@ -30,25 +30,17 @@ The data is updated daily to maintain up-to-date information for analysis.
 
 In this project, we will be utilizing the **Kimball Model**, aka "Star Schema."
 
-### Kimball Model Components
-
-- **Grain**: The grain establishes exactly what a single fact table row represents. It defines the level of detail captured in the data.
-  
-- **Dimensions**: Dimensions provide the “who, what, where, when, why, and how” context surrounding a business process event. They represent the various attributes that describe the event.
-
-- **Facts**: Facts are the measurements that result from a business process event and are almost always numeric. They quantify the business activities recorded in the data warehouse.
-
 ### Facts and Dimension Tables
 
 #### Facts: 
 
-- **Stars:**
+- **fact_Stars:**
   - event_id (PK)
   - repo_id
   - user_id
   - event_date
 
-- **Commits:**
+- **fact_Commits:**
   - event_id (PK)
   - repo_id
   - user_id
@@ -56,12 +48,12 @@ In this project, we will be utilizing the **Kimball Model**, aka "Star Schema."
 
 #### Dimensions: 
 
-- **Repositories:**
+- **dim_Repositories:**
   - repo_id (PK)
   - repo_name
   - owner_login (FK)
 
-- **Users:**
+- **dim_Users:**
   - user_id (PK)
   - login
 
@@ -70,13 +62,16 @@ In this project, we will be utilizing the **Kimball Model**, aka "Star Schema."
 
 Here are some sample SQL queries demonstrating the growth rate of stars and commits for a specific repository:
 
+Sample Code for Growth Rate of Stars
 ```sql
--- Sample Code for Growth Rate of Stars
 SELECT month, yoy_growth
 FROM repo_stars_growth
 WHERE repo_name = "plotly/plotly.py"
+```
 
--- Sample Code for Growth Rate of Commits
+Sample Code for Growth Rate of Commits
+```sql
 SELECT month, yoy_growth
 FROM repo_commits_growth
 WHERE repo_name = "plotly/plotly.py"
+```
