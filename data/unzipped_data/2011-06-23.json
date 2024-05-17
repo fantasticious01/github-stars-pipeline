@@ -1,0 +1,2 @@
+{"type": "WatchEvent", "actor": {"login": "jmeagher"}, "repo": {"id": "206444", "name": "apache/hive"}, "payload": "", "public": true, "created_at": "2011-06-23T12:35:43Z"}
+{"type": "Event", "actor": {"login": "nicolas"}, "repo": {"id": "206444", "name": "apache/hive"}, "payload": "", "public": true, "created_at": "2011-06-23T15:11:51Z"}

@@ -1,0 +1,3 @@
+{"type": "PushEvent", "actor": {"login": "dependabot[bot]"}, "repo": {"id": "53548867", "name": "dbt-labs/dbt-core"}, "payload": "\"{\"\"push_id\"\":8226764374", "public": true, "created_at": "2021-10-25T00:36:31Z"}
+{"type": "PushEvent", "actor": {"login": "dependabot[bot]"}, "repo": {"id": "53548867", "name": "dbt-labs/dbt-core"}, "payload": "\"{\"\"push_id\"\":8226763101", "public": true, "created_at": "2021-10-25T00:36:07Z"}
+{"type": "WatchEvent", "actor": {"login": "robcrock"}, "repo": {"id": "53548867", "name": "dbt-labs/dbt-core"}, "payload": "\"{\"\"action\"\":\"\"started\"\"}\"", "public": true, "created_at": "2021-10-25T00:01:39Z"}
