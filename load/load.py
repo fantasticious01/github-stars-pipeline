@@ -4,7 +4,7 @@ import os
 import tempfile
 import duckdb
 
-zippedDirectory = "data/gharchive_sample/"
+zipped_directory = "data/gharchive_sample/"
 
 def unzip_json_file(srt_gz_dir, dest_json_dir, zip_file):
     """Function that unzips all gzip files in the srt_gz_dir and stores the unzipped files to dest_json_dir."""
@@ -17,12 +17,8 @@ def unzip_json_file(srt_gz_dir, dest_json_dir, zip_file):
 with tempfile.TemporaryDirectory(prefix="unzipped_data_") as temp_dir:
 
     # Loop through each zipped file and unzip.
-    for filename in os.listdir(zippedDirectory):
-
-        # .DS_Store is macOS hidden system files that needs to be skipped when unzipping. 
-        if filename == '.DS_Store':
-            continue
-        unzip_json_file(zippedDirectory, temp_dir, filename)
+    for filename in os.listdir(zipped_directory):
+        unzip_json_file(zipped_directory, temp_dir, filename)
         
     for filename in os.listdir(temp_dir):
         print(filename)
