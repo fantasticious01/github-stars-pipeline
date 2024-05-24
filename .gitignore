@@ -165,3 +165,12 @@ cython_debug/
 
 # PyCharm
 .idea/
+
+# Duckdb
+*.db
+
+# gharhive sample data
+data/gharhive_sample
+
+# unzipped_data
+data/unzipped_data
