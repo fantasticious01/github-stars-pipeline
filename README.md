@@ -76,5 +76,9 @@ FROM repo_commits_growth
 WHERE repo_name = "plotly/plotly.py"
 ```
 
- ## Pipeline Directed Acyclic Graph (DAG)
+## Pipeline Directed Acyclic Graph (DAG)
 ![dbt_dag](docs/dbt_dag.png)
+
+
+## Sanmple Chart: Cumulative Number of Stars per Month for Each Repository
+![stars_growth](docs/stars_growth.png)
