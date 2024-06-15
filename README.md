@@ -76,5 +76,5 @@ FROM repo_commits_growth
 WHERE repo_name = "plotly/plotly.py"
 ```
 
- ### Pipeline Directed Acyclic Graph (DAG)
+ ## Pipeline Directed Acyclic Graph (DAG)
 ![dbt_dag](docs/dbt_dag.png)
