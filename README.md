@@ -77,4 +77,4 @@ WHERE repo_name = "plotly/plotly.py"
 ```
 
  ### Pipeline Directed Acyclic Graph (DAG)
-![Alt textfdsfdsfsffsdfs](docs/dbt_dag.png)
+![dbt_dag](docs/dbt_dag.png)
