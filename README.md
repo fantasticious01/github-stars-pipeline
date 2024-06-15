@@ -80,5 +80,5 @@ WHERE repo_name = "plotly/plotly.py"
 ![dbt_dag](docs/dbt_dag.png)
 
 
-## Sanmple Chart: Cumulative Number of Stars per Month for Each Repository
+## Sample Chart: Cumulative Number of Stars per Month for Each Repository
 ![stars_growth](docs/stars_growth.png)
