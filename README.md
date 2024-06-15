@@ -6,11 +6,16 @@ Welcome to the GitHub Gems project! This project hosts a data analytics pipeline
 
 The goal of this project is to develop an efficient data pipeline that streamlines analytics, reduces manual effort, and enables deeper insights into the open-source ecosystem on GitHub. By leveraging modern data tools and best practices, such as dbt (data build tool) and Jinja, we aim to create a scalable and reliable solution for data-driven decision-making.
 
-## Lineage Graph
+## Charts and Graph
+
+### Lineage Graph
 ![dbt_dag](docs/dbt_dag.png)
 
-## Sample Chart: Cumulative Number of Stars per Month for Each Repository
+### Sample Chart 1: Cumulative Number of Stars per Month for Each Repository
 ![stars_growth](docs/stars_growth.png)
+
+### Sample Chart 2: Year-to-Year Growth of Stars per Month for Each Repository
+![year_stars_growth](docs/year_start_growth.png)
 
 ## High-Level Features
 
