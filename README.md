@@ -4,7 +4,7 @@ Welcome to the GitHub Gems project! This project hosts a data analytics pipeline
 
 ## Project Overview
 
-The goal of this project is to develop an efficient data pipeline that streamlines analytics, reduces manual effort, and enables deeper insights into the open-source ecosystem on GitHub. By leveraging modern data tools and best practices, such as dbt (data build tool) and Airflow, we aim to create a scalable and reliable solution for data-driven decision-making.
+The goal of this project is to develop an efficient data pipeline that streamlines analytics, reduces manual effort, and enables deeper insights into the open-source ecosystem on GitHub. By leveraging modern data tools and best practices, such as dbt (data build tool) and Jinja, we aim to create a scalable and reliable solution for data-driven decision-making.
 
 ## High-Level Features
 
@@ -75,3 +75,6 @@ SELECT month, yoy_growth
 FROM repo_commits_growth
 WHERE repo_name = "plotly/plotly.py"
 ```
+
+ ### Pipeline Directed Acyclic Graph (DAG)
+![Alt textfdsfdsfsffsdfs](docs/dbt_dag.png)
